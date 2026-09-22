@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Dani 🌻</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- FONDO -->
+    <div class="estrellas"></div>
+
+    <!-- ESCENA 1 -->
+    <section class="escena activa" id="inicio">
+
+        <div class="contenido">
+            <div class="flor">🌻</div>
+
+            <p class="pequeno">Tengo algo preparado para ti...</p>
+
+            <h1>Para ti, Dani</h1>
+
+            <p class="subtitulo">
+                Porque hay personas que hacen que los días sean
+                un poquito más bonitos, solo un poquito ah.
+            </p>
+
+            <button onclick="mostrarCarta()">
+                Comenzar ✨
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- ESCENA 2 -->
+    <section class="escena" id="carta">
+
+        <div class="contenido carta-contenedor">
+
+            <div class="sobre" id="sobre" onclick="abrirCarta()">
+                <div class="tapa"></div>
+                <div class="papel">
+                    <span>💌</span>
+                    <p>Abrir carta</p>
+                </div>
+            </div>
+
+            <div class="texto-carta" id="textoCarta">
+
+                <h2>Para ti 💛</h2>
+
+                <p id="mensaje"></p>
+
+                <button onclick="mostrarFoto()">
+                    Hay alguito más... 🌻
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ESCENA 3 -->
+    <section class="escena" id="foto">
+
+        <div class="contenido">
+
+            <p class="pequeno">Y quería compartir esto contigo...</p>
+
+            <div class="marco-foto">
+                <img src="imagenes/Daniii.jpg" alt="Dani">
+            </div>
+
+            <h2 class="titulo-foto">
+                Una persona muy especial Y espechial 💛
+            </h2>
+
+            <p class="descripcion">
+                Espero que esta pequeña sorpresa pueda sacarte
+                una sonrisa.
+            </p>
+
+            <button onclick="mostrarFinal()">
+                TQM ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ESCENA 4 -->
+    <section class="escena" id="final">
+
+        <div class="contenido final">
+
+            <div class="flores-final">
+                🌻 🌻 🌻
+            </div>
+
+            <h1>Para ti, Dani</h1>
+
+            <p>
+                Que nunca te falten motivos para sonreír,
+                personas que te quieran bonito
+                y momentos que quieras guardar para siempre.
+            </p>
+
+            <p class="grande">
+                Gracias por existir. 💛
+            </p>
+
+            <div class="corazones">
+                ❤️ 💛 ❤️ 💛 ❤️
+            </div>
+
+            <button onclick="volverInicio()">
+                Volver a comenzar 🌻
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
